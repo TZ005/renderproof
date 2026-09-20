@@ -58,7 +58,7 @@ The Sanity dataset models:
 
 This structure matters because the answer depends on relationships. A compatibility rule points to the codec and container it applies to. A claim points to its original source and a stable locator. A delivery profile references the codec, container, and constraints that shape the recommendation. A decision selects a claim when sources conflict.
 
-The seed dataset contains 29 documents. The Knowledge Base contains 15 built entries across three sources: the structured Sanity dataset, the FFmpeg Codecs documentation, and the FFmpeg Formats documentation.
+The seed dataset contains 29 documents. The Knowledge Base contains 14 built entries across three sources: the structured Sanity dataset, the FFmpeg Codecs documentation, and the FFmpeg Formats documentation.
 
 ### Sanity Context MCP
 

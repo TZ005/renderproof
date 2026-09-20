@@ -45,7 +45,7 @@ const starterPrompts = [
 
 const sourceFacts = [
   { label: "Knowledge base", value: "RenderProof Video Delivery" },
-  { label: "Indexed entries", value: "15" },
+  { label: "Indexed entries", value: "14" },
   { label: "Sources", value: "3 linked sources" },
   { label: "Access", value: "Read-only MCP" },
 ];
