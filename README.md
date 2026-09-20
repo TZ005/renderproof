@@ -48,6 +48,10 @@ The public Demo runs on Cloudflare Workers:
 
 [https://renderproof.proteinpayment.com](https://renderproof.proteinpayment.com)
 
+DEV Community submission:
+
+[https://dev.to/yx-studio/renderproof-a-video-delivery-agent-that-refuses-to-guess-48no](https://dev.to/yx-studio/renderproof-a-video-delivery-agent-that-refuses-to-guess-48no)
+
 ## Verification
 
 ```powershell

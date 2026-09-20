@@ -4,6 +4,8 @@ published: false
 tags: devchallenge, sanitychallenge, sanity, ai
 ---
 
+Published URL: [https://dev.to/yx-studio/renderproof-a-video-delivery-agent-that-refuses-to-guess-48no](https://dev.to/yx-studio/renderproof-a-video-delivery-agent-that-refuses-to-guess-48no)
+
 *This is a submission for the [Sanity Challenge, Path One: Ship an Agent That Queries Real Content](https://dev.to/challenges/sanity-2026-09-16).*
 
 ## What I Built

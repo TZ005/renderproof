@@ -25,7 +25,7 @@
 - [x] Deployed demo URL is included
 - [x] Repository URL is included
 - [ ] Test credentials or testing instructions are included if needed
-- [ ] Agent Session is public and free of secrets
+- [x] Agent Session is public and free of secrets
 - [ ] Cover image is added if desired
 - [ ] Submission is completed before October 5, 2026 at 14:59 Asia/Shanghai
 
@@ -36,3 +36,8 @@
 - [x] DeepSeek key was rotated after local testing
 - [x] Production secrets are configured in the hosting platform
 - [x] `.env.local` is absent from Git history
+
+## Final submission
+
+- [x] Submission post published
+- [x] Submission URL recorded in the repository README
