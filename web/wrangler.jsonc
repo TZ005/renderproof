@@ -1,0 +1,28 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "renderproof-web",
+  "compatibility_date": "2026-09-20",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "vars": {
+    "SANITY_CONTEXT_MCP_URL": "https://api.sanity.io/v1/context/organizations/oey86fpw1/mcp/renderproof-context",
+    "DEEPSEEK_MODEL": "deepseek-flash"
+  },
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+  "routes": [
+    {
+      "pattern": "renderproof.proteinpayment.com",
+      "custom_domain": true
+    }
+  ],
+  "main": "vinext/server/fetch-handler",
+  "assets": {
+    "directory": "dist/client",
+    "not_found_handling": "none",
+    "binding": "ASSETS"
+  }
+}

@@ -30,3 +30,23 @@ curl.exe -X POST http://localhost:3000/api/chat `
 
 The server logs completed MCP tool names. A successful response should contain
 facts and citations retrieved from the Sanity Knowledge Base.
+
+## Cloudflare deployment
+
+The production application runs on Cloudflare Workers with the Cloudflare
+`vinext` adapter:
+
+```powershell
+npm run build:vinext
+npm run deploy:vinext
+```
+
+Non-secret runtime settings live in `wrangler.jsonc`. Set production secrets
+through Wrangler rather than putting them in the repository:
+
+```powershell
+npx wrangler secret put SANITY_API_READ_TOKEN
+npx wrangler secret put DEEPSEEK_API_KEY
+```
+
+Production URL: [https://renderproof.proteinpayment.com](https://renderproof.proteinpayment.com)

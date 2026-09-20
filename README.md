@@ -44,6 +44,10 @@ npm run dev
 
 The application reads secrets from `web/.env.local`. Never commit that file.
 
+The public Demo runs on Cloudflare Workers:
+
+[https://renderproof.proteinpayment.com](https://renderproof.proteinpayment.com)
+
 ## Verification
 
 ```powershell

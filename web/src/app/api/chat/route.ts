@@ -66,6 +66,7 @@ export async function POST(request: Request) {
   }
 
   let mcpClient: Awaited<ReturnType<typeof createMCPClient>> | undefined;
+  let stage = "mcp-connect";
 
   try {
     mcpClient = await createMCPClient({
@@ -73,15 +74,18 @@ export async function POST(request: Request) {
       transport: {
         type: "http",
         url: process.env.SANITY_CONTEXT_MCP_URL ?? defaultMcpUrl,
+        redirect: "follow",
         headers: {
           Authorization: `Bearer ${sanityToken}`,
         },
       },
     });
 
+    stage = "mcp-tools";
     const tools = await mcpClient.tools();
     const deepseek = createDeepSeek({ apiKey: deepSeekApiKey });
 
+    stage = "model-start";
     const result = streamText({
       model: deepseek(process.env.DEEPSEEK_MODEL ?? "deepseek-flash"),
       system: systemPrompt,
@@ -160,10 +164,10 @@ export async function POST(request: Request) {
     });
   } catch (error) {
     await mcpClient?.close();
-    console.error("[renderproof] chat setup failed", error);
+    console.error("[renderproof] chat setup failed", { stage, error });
 
     return jsonError(
-      "RenderProof could not connect to the Sanity MCP endpoint or start the model.",
+      `RenderProof failed during ${stage}.`,
       502,
     );
   }
