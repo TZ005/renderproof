@@ -32,7 +32,7 @@ The interface shows the actual MCP tool activity while the answer streams. In th
 
 Repository:
 
-<!-- Add the public GitHub repository URL before publishing. -->
+[https://github.com/TZ005/renderproof](https://github.com/TZ005/renderproof)
 
 The repository contains:
 
