@@ -93,7 +93,7 @@ production
 
 ## Agent Session
 
-<!-- Upload the curated Codex session, make it public, and embed it here before publishing. -->
+{% agent_session renderproof-sanity-context-mcp-build-ndmi5w %}
 
 ## What Makes This Agent Different
 
