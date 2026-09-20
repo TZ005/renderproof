@@ -5,6 +5,7 @@ Thumbs.db
 
 node_modules/
 .tools/
+.artifacts/
 .next/
 dist/
 out/

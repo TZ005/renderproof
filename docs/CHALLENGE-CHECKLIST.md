@@ -3,27 +3,27 @@
 ## Eligibility
 
 - [ ] Entrant is 18 or older
-- [ ] DEV account is active and in good standing
+- [x] DEV account is active and in good standing
 - [ ] Entry is not from an excluded jurisdiction
-- [ ] Team has no more than four members
-- [ ] Development started during the challenge period
+- [x] Team has no more than four members
+- [x] Development started during the challenge period
 
 ## Path One requirements
 
-- [ ] Agent connects to a Sanity Context MCP endpoint
-- [ ] Endpoint is backed by a Knowledge Base
-- [ ] Structured content changes the answer, not only retrieval prose
-- [ ] Sources and claims remain traceable
-- [ ] Missing evidence is surfaced instead of guessed
+- [x] Agent connects to a Sanity Context MCP endpoint
+- [x] Endpoint is backed by a Knowledge Base
+- [x] Structured content changes the answer, not only retrieval prose
+- [x] Sources and claims remain traceable
+- [x] Missing evidence is surfaced instead of guessed
 
 ## Submission
 
-- [ ] English submission post
-- [ ] Path One template is used
-- [ ] `#sanitychallenge` tag is present
-- [ ] Public Sanity project ID or dataset URL is included
-- [ ] Deployed demo URL is included
-- [ ] Repository URL is included
+- [x] English submission post draft prepared
+- [x] Path One template is used in the draft
+- [x] `#sanitychallenge` tag is present in the draft
+- [x] Public Sanity project ID or dataset URL is included
+- [x] Deployed demo URL is included
+- [x] Repository URL is included
 - [ ] Test credentials or testing instructions are included if needed
 - [ ] Agent Session is public and free of secrets
 - [ ] Cover image is added if desired
@@ -32,7 +32,7 @@
 ## Deployment security
 
 - [ ] Chat comments containing exposed keys are no longer considered valid
-- [ ] Sanity token was rotated after local testing
-- [ ] DeepSeek key was rotated after local testing
-- [ ] Production secrets are configured in the hosting platform
-- [ ] `.env.local` is absent from Git history
+- [x] Sanity token was rotated after local testing
+- [x] DeepSeek key was rotated after local testing
+- [x] Production secrets are configured in the hosting platform
+- [x] `.env.local` is absent from Git history
