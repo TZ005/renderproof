@@ -1,0 +1,8 @@
+.sanity/
+dist/
+node_modules/
+*.tsbuildinfo
+
+.env
+.env.*
+!.env.example
