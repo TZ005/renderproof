@@ -1,0 +1,15 @@
+.DS_Store
+Thumbs.db
+*.log
+*.tsbuildinfo
+
+node_modules/
+.next/
+dist/
+out/
+build/
+
+.env
+.env.*
+!.env.example
+
