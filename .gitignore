@@ -4,6 +4,7 @@ Thumbs.db
 *.tsbuildinfo
 
 node_modules/
+.tools/
 .next/
 dist/
 out/
@@ -12,4 +13,3 @@ build/
 .env
 .env.*
 !.env.example
-
